@@ -7,10 +7,10 @@ using System.IO;
 // This file can be used one of two ways.  It can be used as an API to get text from the Bible, or as a Bible viewer. Using it as a Bible viewer requires the scene to be setup properly with the proper scroll views and buttons. It also would require the main text box to be linked in the editor.
 public class BibleReader : MonoBehaviour {
 	public Text Text;
-    private BibleBookNameAgent biblebooknameagent;	
-	private GameObject changer;
-	private GameObject chapternum;
-	private GameObject scroller;
+    public BibleBookNameAgent biblebooknameagent;	
+	public GameObject changer;
+	public GameObject chapternum;
+	public GameObject scroller;
 	private string Book = "GEN";
 	private int Chapter = 1;
 	private string[] biblelines = {};
